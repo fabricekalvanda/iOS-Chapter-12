@@ -20,7 +20,7 @@ class MyDataSource: NSObject, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyTableCellReuseId", for: indexPath)
         
         // Configure the cell’s contents and return cell.
-        cell.textLabel!.text = "Cell text"
+        cell.textLabel!.text = data[indexPath.row]
         return cell
     }
     
