@@ -14,6 +14,7 @@
 		D12B4AB3227BC18300A45236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12B4AB1227BC18300A45236 /* LaunchScreen.storyboard */; };
 		D12B4ABE227BC18300A45236 /* Test_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B4ABD227BC18300A45236 /* Test_TableViewTests.swift */; };
 		D12B4AC9227BC18300A45236 /* Test_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B4AC8227BC18300A45236 /* Test_TableViewUITests.swift */; };
+		D12B4AD7227C1DAA00A45236 /* MyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B4AD6227C1DAA00A45236 /* MyDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D12B4AC4227BC18300A45236 /* Test TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test TableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12B4AC8227BC18300A45236 /* Test_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_TableViewUITests.swift; sourceTree = "<group>"; };
 		D12B4ACA227BC18300A45236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12B4AD6227C1DAA00A45236 /* MyDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D12B4AAF227BC18300A45236 /* Assets.xcassets */,
 				D12B4AB1227BC18300A45236 /* LaunchScreen.storyboard */,
 				D12B4AB4227BC18300A45236 /* Info.plist */,
+				D12B4AD6227C1DAA00A45236 /* MyDataSource.swift */,
 			);
 			path = "Test TableView";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D12B4AAB227BC18100A45236 /* ViewController.swift in Sources */,
+				D12B4AD7227C1DAA00A45236 /* MyDataSource.swift in Sources */,
 				D12B4AA9227BC18100A45236 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
