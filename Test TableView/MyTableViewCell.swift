@@ -9,18 +9,16 @@
 import UIKit
 
 class MyTableViewCell: UITableViewCell {
-    @IBOutlet var city:UILabel!
-    @IBOutlet var state: UILabel!
+    //TODO: Create @IBOutlets, one for the city and one for the state UILabels
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        // TODO: Set the adjustFontForContentSizeCategory propoerty for city and state TextViews
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }
