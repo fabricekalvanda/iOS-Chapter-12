@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let viewController = self.window?.rootViewController as! ViewController
+        viewController.dataSource = CityDataSource()
+        
         return true
     }
 
@@ -43,4 +47,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
